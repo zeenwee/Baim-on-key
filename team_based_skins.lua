@@ -2,7 +2,7 @@
 local callbacks_Register, client_AllowListener, client_GetLocalPlayerIndex, client_GetPlayerIndexByUserID, draw_GetScreenSize, entities_GetLocalPlayer, file_Enumerate, file_Read, file_Write, gui_Button, gui_Combobox, gui_Command, gui_Editbox, gui_Groupbox, gui_Listbox, gui_Reference, gui_Slider, gui_Tab, gui_Window, http_Get, string_format, table_concat, table_insert, table_remove, table_sort, unpack, pairs, tonumber = callbacks.Register, client.AllowListener, client.GetLocalPlayerIndex, client.GetPlayerIndexByUserID, draw.GetScreenSize, entities.GetLocalPlayer, file.Enumerate, file.Read, file.Write, gui.Button, gui.Combobox, gui.Command, gui.Editbox, gui.Groupbox, gui.Listbox, gui.Reference, gui.Slider, gui.Tab, gui.Window, http.Get, string.format, table.concat, table.insert, table.remove, table.sort, unpack, pairs, tonumber
 
 local allow_temp_file = false -- Setting this to true will save the skin cfg on lua unload. *This might crash you.
-local git, dir, files = 'https://raw.githubusercontent.com/Zack2kl/', 'Team-Based-Skins/', {}
+local git, dir, files = 'https://raw.githubusercontent.com/zeenwee/', 'Team-Based-Skins/', {}
 file_Enumerate(function(c)if c:sub(1,17)==dir then files[c:sub(18)]=''end end)
 
 local MENU = gui_Reference('MENU')
