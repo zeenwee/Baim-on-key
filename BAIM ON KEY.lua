@@ -1,5 +1,5 @@
 --local author = "zeenwee";
-
+--https://github.com/zeenwee/Baim-on-key/blob/master/BAIM%20ON%20KEY.lua  
 local ref = gui.Tab(gui.Reference("Misc"), "baimgroup", "Baim on key")
 local baimgroup = gui.Groupbox(ref, "Baim on key", 10, 10, 200, 200);
 local keyset = gui.Keybox(baimgroup, "keyset", "key", 86);
